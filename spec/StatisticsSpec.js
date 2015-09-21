@@ -1,9 +1,5 @@
 describe("Statistics", function() {
-  var stat;
-
-  beforeAll(function() {
-    stat = new Statistics();
-  });
+  var stat = Statistics;
 
   var range = function(from, to) {
     var arr = [];

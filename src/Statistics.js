@@ -1,6 +1,6 @@
 "use strict";
 
-var Statistics = function() {
+var Statistics = (function() {
   var publik = {};
 
   var sum = function(arr) {
@@ -82,4 +82,4 @@ var Statistics = function() {
   // };
 
   return publik;
-};
+}());
