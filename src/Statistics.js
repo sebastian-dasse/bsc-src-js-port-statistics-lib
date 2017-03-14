@@ -31,6 +31,7 @@ var Statistics = (function() {
     checkArr(arr);
     var srtd = arr.concat().sort(compareNumeric); // 'concat()' creates a copy, so the original array is not mutated
     var lenHalf = Math.floor(srtd.length / 2);
+
     switch (srtd.length % 2) {
       case 1:
         return srtd[lenHalf];
